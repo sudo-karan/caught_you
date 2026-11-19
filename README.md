@@ -44,6 +44,8 @@ No root, emulator, proxy, USB debugging, generic system-property, or Play Integr
 4. Select **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 5. Debug APK output: `app/build/outputs/apk/debug/app-debug.apk`.
 
+From a terminal with JDK 17 and the Android SDK installed, `./gradlew assembleDebug` produces the same APK.
+
 Application ID: `com.caughtyou.app`
 Version: `1.1`
 
