@@ -56,7 +56,6 @@ This project includes `.github/workflows/build-apk.yml`. To build without instal
 1. Create a GitHub repository and upload the contents of this project (the `app/`, root Gradle files, and `.github/` folder).
 2. Open the repository's **Actions** tab.
 3. Select **Build Caught_You APK** and click **Run workflow** (or push to `main`).
-4. Open the completed workflow run and download the `Caught_You-debug-apk` artifact.
-5. Extract the artifact; it contains `app-debug.apk`.
+4. Open the completed workflow run and download the `Caught_You-debug.apk` artifact. It downloads as the APK itself, not a zip.
 
 The cloud workflow builds on Ubuntu with JDK 17, Android SDK 35 and Gradle 8.9.
